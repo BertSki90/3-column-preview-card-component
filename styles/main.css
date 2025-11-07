@@ -1,0 +1,61 @@
+/* |||| MAIN STYLES FOR - index.html |||| */
+
+:root {
+    /* COLORS */
+    --black: rgb(0, 0, 0);
+    --cyan--800: rgb(0, 105, 113);
+    --cyan--500: rgb(38, 181, 192);
+    --gray: rgb(242, 242, 242);
+    --green--950: rgb(0, 65, 64);
+    --green--500: rgb(25, 184, 157);
+    --gold--500: rgb(226, 134, 37);
+    --gold--200: rgb(255, 212, 115);
+    --white: rgb(255, 255, 255);
+}
+
+/* |||| GENERAL |||| */
+
+html {
+    font-size: 15px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/* |||| CARD |||| */
+
+.car-model-preview-card {
+    max-width: 21.8em;
+}
+
+.car-model-preview-card section {
+    padding: 3.2em;
+}
+
+.car-model-title {
+    color: var(--gray);
+}
+
+.car-model-para {
+    color: var(--white);
+}
+
+/* || SEDAN || */
+
+.car-model-sedan {
+    background-color: var(--gold--500);
+}
+
+/* || SUV || */
+
+.car-model-suv {
+    background-color: var(--cyan--800);
+}
+
+/* || LUXURY || */
+
+.car-model-luxury {
+    background-color: var(--green--950);
+}

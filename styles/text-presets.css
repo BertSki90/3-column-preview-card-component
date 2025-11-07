@@ -1,0 +1,36 @@
+/* |||| TEXT PRESETS |||| */
+
+@font-face {
+    font-display: swap;
+    font-family: "Big Shoulders Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("./fonts/bigShoulders/BigShoulders-VariableFont_opsz\,wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Lexend Deca Reg";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/bigShoulders/BigShoulders-VariableFont_opsz\,wght.ttf") format("truetype");
+}
+
+:root {
+    /* lg = 40px */
+    --text--lg: 2.667rem;
+    /* md = 15px */
+    --text--md: 1rem;
+}
+
+.text-preset-1 {
+    font-family: "Big Shoulders Bold";
+    font-size: var(--text--lg);
+    line-height: 120%;
+}
+
+.text-preset-2 {
+    font-family: "Lexend Deca Reg";
+    font-size: var(--text--md);
+    line-height: 165%;
+}
