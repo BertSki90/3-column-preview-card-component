@@ -5,7 +5,7 @@
     --black: rgb(0, 0, 0);
     --cyan--800: rgb(0, 105, 113);
     --cyan--500: rgb(38, 181, 192);
-    --gray: rgb(242, 242, 242);
+    --gray--100: rgb(242, 242, 242);
     --green--950: rgb(0, 65, 64);
     --green--500: rgb(25, 184, 157);
     --gold--500: rgb(226, 134, 37);
@@ -27,6 +27,7 @@ main {
 /* |||| CARD |||| */
 
 .car-model-preview-card {
+    border-radius: 2em;
     max-width: 21.8em;
 }
 
@@ -35,11 +36,23 @@ main {
 }
 
 .car-model-title {
-    color: var(--gray);
+    color: var(--gray--100);
+    margin: 0.8em 0 0.6em;
 }
 
 .car-model-para {
     color: var(--white);
+    padding-inline-end: 0.5em;
+    /* max-width: 25ch; */
+}
+
+/* || BUTTONS || */
+
+.learn-more-btn {
+    background-color: var(--gray--100);
+    border-radius: 1.667em;
+    padding: 0.767em 2.133rem;
+    margin-block-start: 1.6em;
 }
 
 /* || SEDAN || */
