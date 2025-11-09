@@ -24,10 +24,21 @@ main {
     justify-content: center;
 }
 
+/* || SCREEN READER ONLY || */
+
+.sr-only {
+    height: 1px;
+    left: 10000px;
+    overflow: hidden;
+    position: absolute;
+    top: auto;
+    width: 1px;
+}
+
 /* |||| CARD |||| */
 
 .car-model-preview-card {
-    border-radius: 2em;
+    border-radius: 1em;
     max-width: 21.8em;
 }
 
@@ -46,6 +57,36 @@ main {
     /* max-width: 25ch; */
 }
 
+/* || SEDAN || */
+
+.car-model-sedan {
+    background-color: var(--gold--500);
+}
+
+.car-model-sedan .learn-more-btn {
+    color: var(--gold--500);
+}
+
+/* || SUV || */
+
+.car-model-suv {
+    background-color: var(--cyan--800);
+}
+
+.car-model-suv .learn-more-btn {
+    color: var(--cyan--800)
+}
+
+/* || LUXURY || */
+
+.car-model-luxury {
+    background-color: var(--green--950);
+}
+
+.car-model-luxury .learn-more-btn {
+    color: var(--green--950);
+}
+
 /* || BUTTONS || */
 
 .learn-more-btn {
@@ -55,20 +96,70 @@ main {
     margin-block-start: 1.6em;
 }
 
-/* || SEDAN || */
+/* | BUTTONS | HOVER/ACTIVE STATES | */
 
-.car-model-sedan {
-    background-color: var(--gold--500);
+.learn-more-btn:hover,
+.learn-more-btn:active {
+    background-color: transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+    cursor: pointer;
 }
 
-/* || SUV || */
+/* |||| FOOTER | ATTRIBUTION |||| */
 
-.car-model-suv {
-    background-color: var(--cyan--800);
+.attribution {
+    justify-self: center;
+    padding: 2em 0;
 }
 
-/* || LUXURY || */
+.attribution a {
+    color: var(--gold--500);
+}
 
-.car-model-luxury {
-    background-color: var(--green--950);
+.attribution a:hover,
+.attribution a:active {
+    color: var(--cyan--800);
+}
+
+/* |||| MEDIA QUERIES |||| */
+
+/* |||| TABLET SCREEN |||| */
+
+@media screen and (min-width: 48em) {
+    
+    /* || CARD || */
+
+    .car-model-preview-card {
+        max-width: 40.533em;
+    }
+
+    .car-model-para {
+        padding-inline-end: 5em;
+    }
+}
+
+/* |||| DESKTOP SCREEN |||| */
+
+@media screen and (min-width: 62.5em) {
+
+    main {
+        align-items: center;
+        height: 100vh;
+    }
+
+    /* || CARD || */
+
+    .car-model-preview-card {
+        display: flex;
+        max-width: 61.4em;
+    }
+
+    .car-model-para {
+        padding-inline-end: 0;
+    }
+
+    .learn-more-btn {
+        margin-block-start: 5.333em;
+    }
 }
