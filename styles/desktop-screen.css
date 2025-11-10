@@ -1,0 +1,28 @@
+/* |||| MEDIA QUERY |||| */
+
+/* |||| DESKTOP SCREEN |||| */
+
+@media screen and (min-width: 62.5em) {
+
+    main {
+        align-items: center;
+        height: 100vh;
+    }
+
+    /* || CARD || */
+
+    .car-model-preview-card {
+        display: flex;
+        max-width: 61.4em;
+    }
+
+    .car-model-para {
+        padding-inline-end: 0;
+    }
+
+    /* | BUTTON | */
+
+    .learn-more-btn {
+        margin-block-start: 5.333em;
+    }
+}

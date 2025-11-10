@@ -1,0 +1,16 @@
+/* |||| MEDIA QUERIES |||| */
+
+/* |||| TABLET SCREEN |||| */
+
+@media screen and (min-width: 28em) {
+    
+    /* || CARD || */
+
+    .car-model-preview-card {
+        max-width: 40.533em;
+    }
+
+    .car-model-para {
+        padding-inline-end: 5em;
+    }
+}
