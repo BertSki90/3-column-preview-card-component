@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="./styles/text-presets.css" />
     <!-- STYLESHEET FOR INDEX.HTML -->
     <link rel="stylesheet" href="./styles/main.css" />
+    <!-- MEDIA QUERIES | SCREEN SIZES -->
+    <link rel="stylesheet" href="./styles/tablet-screen.css" />
+    <link rel="stylesheet" href="./styles/desktop-screen.css" />
 
     <title>Frontend Mentor | 3-column preview card component</title>
   </head>
@@ -28,7 +31,7 @@
       <!-- CARD -->
       <article class="car-model-preview-card">
         <!-- SEDAN -->
-        <section class="car-model-sedan">
+        <section class="car-model-sedan" aria-labelledby="sedan-title">
           <figure>
             <img
               src="images/icon-sedans.svg"
@@ -38,7 +41,7 @@
               height="40px"
             />
           </figure>
-          <h2 class="car-model-title text-preset-1">Sedans</h2>
+          <h2 class="car-model-title text-preset-1" id="sedan-title">Sedans</h2>
           <p class="car-model-para text-preset-2">
             Choose a sedan for its affordability and excellent fuel economy.
             Ideal for cruising in the city or on your next road trip.
@@ -48,7 +51,7 @@
           </button>
         </section>
         <!-- SUV -->
-        <section class="car-model-suv">
+        <section class="car-model-suv" aria-labelledby="suv-title">
           <figure>
             <img
               src="images/icon-suvs.svg"
@@ -58,7 +61,7 @@
               height="40px"
             />
           </figure>
-          <h2 class="car-model-title text-preset-1">SUVs</h2>
+          <h2 class="car-model-title text-preset-1" id="suv-title">SUVs</h2>
           <p class="car-model-para text-preset-2">
             Take an SUV for its spacious interior, power, and versatility.
             Perfect for your next family vacation and off-road adventures.
@@ -68,7 +71,7 @@
           </button>
         </section>
         <!-- LUXURY -->
-        <section class="car-model-luxury">
+        <section class="car-model-luxury" aria-labelledby="luxury-title">
           <figure>
             <img
               src="images/icon-luxury.svg"
@@ -78,7 +81,9 @@
               height="40px"
             />
           </figure>
-          <h2 class="car-model-title text-preset-1">Luxury</h2>
+          <h2 class="car-model-title text-preset-1" id="luxury-title">
+            Luxury
+          </h2>
           <p class="car-model-para text-preset-2">
             Cruise in the best car brands without the bloated prices. Enjoy the
             enhanced comfort of a luxury rental and arrive in style.
@@ -92,9 +97,14 @@
 
     <footer class="attribution">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        rel="noopener noreferrer"
         >Frontend Mentor</a
-      >. Coded by <a href="#" target="_blank">Albert Kuczkowski</a>.
+      >. Coded by
+      <a href="#" target="_blank" rel="noopener noreferrer">Albert Kuczkowski</a
+      >.
     </footer>
   </body>
 </html>
