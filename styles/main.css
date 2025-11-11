@@ -50,6 +50,7 @@ main {
 .car-model-title {
     color: var(--gray--100);
     margin: 0.8em 0 0.6em;
+    text-transform: uppercase;
 }
 
 .car-model-para {
