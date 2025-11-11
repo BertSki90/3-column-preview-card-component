@@ -24,7 +24,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 Estimated Time: 10hrs
 
-Actual Time: 3:28 hrs
+Actual Time: 5:01 hrs
 
 Users should be able to:
 
