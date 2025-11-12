@@ -39,6 +39,7 @@ main {
 
 .car-model-preview-card {
     border-radius: 0.6em;
+    margin-block-start: 2em;
     overflow: hidden;
     max-width: 21.8em;
 }
