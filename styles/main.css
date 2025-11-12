@@ -92,11 +92,12 @@ main {
 
 .learn-more-btn {
     background-color: var(--gray--100);
+    border: 2px solid var(--white);
     border-radius: 1.667em;
     display: flex;
     justify-self: start;
     margin-block-start: 1.6em;
-    padding: 0.767em 2.133rem;
+    padding: 0.667em 2.033rem;
 }
 
 /* | BUTTONS | HOVER/ACTIVE STATES | */
@@ -104,7 +105,6 @@ main {
 .learn-more-btn:hover,
 .learn-more-btn:active {
     background-color: transparent;
-    border: 2px solid var(--white);
     color: var(--white);
     cursor: pointer;
 }
