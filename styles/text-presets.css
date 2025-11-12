@@ -10,7 +10,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Lexend Deca Reg", Arial, Helvetica, sans-serif;
+    font-family: "Lexend Deca Reg";
     font-style: normal;
     font-weight: 400;
     src: url("./fonts/lexendDeca/LexendDeca-VariableFont_wght.ttf") format("truetype");
@@ -30,7 +30,7 @@
 }
 
 .text-preset-2 {
-    font-family: "Lexend Deca Reg";
+    font-family: "Lexend Deca Reg", Arial, Helvetica, sans-serif;
     font-size: var(--text--md);
     line-height: 165%;
 }
