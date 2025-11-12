@@ -75,7 +75,7 @@ main {
 }
 
 .car-model-suv .learn-more-btn {
-    color: var(--cyan--800)
+    color: var(--cyan--800);
 }
 
 /* || LUXURY || */
@@ -93,8 +93,10 @@ main {
 .learn-more-btn {
     background-color: var(--gray--100);
     border-radius: 1.667em;
-    padding: 0.767em 2.133rem;
+    display: flex;
+    justify-self: start;
     margin-block-start: 1.6em;
+    padding: 0.767em 2.133rem;
 }
 
 /* | BUTTONS | HOVER/ACTIVE STATES | */
