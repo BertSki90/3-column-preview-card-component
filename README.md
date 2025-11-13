@@ -22,7 +22,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 Estimated Time: 10hrs
 
-Actual Time: 6:13 hrs
+Actual Time: 6:38 hrs
 
 Users should be able to:
 
@@ -31,15 +31,37 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### HTML
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![](./images/screenshots/html/3-column-preview-card-html-1.png)
+![](./images/screenshots/html/3-column-preview-card-html-2.png)
+![](./images/screenshots/html/3-column-preview-card-html-3.png)
+![](./images/screenshots/html/3-column-preview-card-html-4.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
+#### CSS
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+##### RESET
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./images/screenshots/css/3-column-preview-card-css-reset-1.png)
+
+##### TEXT PRESETS
+
+![](./images/screenshots/css/3-column-preview-card-css-text-presets-1.png)
+
+##### MAIN
+
+![](./images/screenshots/css/3-column-preview-card-css-main-1.png)
+![](./images/screenshots/css/3-column-preview-card-css-main-2.png)
+![](./images/screenshots/css/3-column-preview-card-css-main-3.png)
+![](./images/screenshots/css/3-column-preview-card-css-main-4.png)
+
+##### TABLET SCREEN
+
+![](./images/screenshots/css/3-column-preview-card-css-tablet-screen-1.png)
+
+##### DESKTOP SCREEN
+
+![](./images/screenshots/css/3-column-preview-card-css-desktop-screen-1.png)
 
 ### Links
 
